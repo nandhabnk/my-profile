@@ -1,0 +1,33 @@
+.header-style {
+  border: solid 1px black;
+  box-shadow: 0px 0px 5px grey;
+  //   background-image: linear-gradient(to bottom right, #ff9933, #ffffff, #138808);
+  background-image: linear-gradient(
+    to bottom right,
+    #0096ff,
+    royalblue,
+    #5d3fd3
+  );
+  min-height: 5rem;
+  text-align: center;
+
+  .header-heading {
+    font-size: 4rem;
+    color: white;
+    font-weight: 300;
+    padding: 1rem;
+  }
+
+  .header-links {
+    float: right;
+    color: beige;
+
+    a {
+      padding: 1.5rem;
+    }
+    svg {
+      height: 2em;
+      width: 2em;
+    }
+  }
+}
