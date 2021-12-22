@@ -19,15 +19,30 @@
   }
 
   .header-links {
-    float: right;
-    color: beige;
-
-    a {
-      padding: 1.5rem;
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
     }
-    svg {
-      height: 2em;
-      width: 2em;
+    a {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+    }
+    a:hover {
+      text-shadow: 0 0 2px black;
+    }
+    .link-active {
+      border-bottom: solid 2px white;
+      padding-bottom: 2px;
+      transition: 2s;
+    }
+  }
+
+  .logout-btn {
+    float: right;
+    button {
+      background-color: red;
     }
   }
 }
